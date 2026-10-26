@@ -159,31 +159,6 @@ body{
  font-size: 13px;
 }
 
-/* dark mode - my simple dark */
-.dark-mode{
- background: #1a1a1a;
- color: white;
-}
-
-.dark-mode .card{
- background: #2d2d2d;
- color: white;
-}
-
-.dark-mode .site-header{
- background: #2d2d2d;
- color: white;
-}
-
-/* for phone */
-@media(max-width: 600px){
- .grid-2{
-   grid-template-columns: 1fr;
-  /* DARK MODE FIX - Frank */
-body.dark {
-  background: #111 !important;
-  color: white !important;
-}
 body.dark div,
 body.dark form,
 body.dark .form-container,
