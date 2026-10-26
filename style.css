@@ -179,5 +179,29 @@ body{
 @media(max-width: 600px){
  .grid-2{
    grid-template-columns: 1fr;
+  /* DARK MODE FIX - Frank */
+body.dark {
+  background: #111 !important;
+  color: white !important;
+}
+body.dark div,
+body.dark form,
+body.dark .form-container,
+body.dark .container,
+body.dark .card,
+body.dark .panel,
+body.dark input,
+body.dark select,
+body.dark textarea,
+body.dark ul,
+body.dark li {
+  background: #222 !important;
+  color: white !important;
+  border-color: #444 !important;
+}
+body.dark button {
+  background: #333 !important;
+  color: white !important;
+}
  }
 }
